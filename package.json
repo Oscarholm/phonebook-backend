@@ -1,0 +1,24 @@
+{
+  "name": "phonebook_backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/oscarholm/phonebook-backend.git"
+  },
+  "author": "Oscar Holm",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/oscarholm/phonebook-backend/issues"
+  },
+  "homepage": "https://github.com/oscarholm/phonebook-backend#readme",
+  "dependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
