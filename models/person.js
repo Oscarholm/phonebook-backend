@@ -35,7 +35,6 @@ const personSchema = new mongoose.Schema({
     validate: {
       validator: function (v) {
         test = /^[0-9]{2,3}-?[0-9]+$/.test(v);
-        console.log(test);
         return test;
       },
       message: (props) => {
